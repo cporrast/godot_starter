@@ -1,9 +1,0 @@
-res://scenes/meta/splash_screen/splash_screen.tscn
-res://scenes/ui/pause_menu/pause_menu.tscn
-res://scenes/ui/pause_menu/pause_menu.gd
-res://scenes/levels/test_level/test_level.tscn
-res://scenes/ui/hud/hud.tscn
-res://scenes/levels/test_level/test_level.gd
-res://autoload/game_manager.gd
-res://scenes/meta/loading_screen/loading_screen.tscn
-res://scenes/main/main.tscn

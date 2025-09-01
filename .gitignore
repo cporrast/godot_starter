@@ -3,6 +3,7 @@
 .export/               # Auto-generated export templates (Godot 4+)
 export_presets.cfg     # Local export settings (optional, can be shared if you want)
 mono_crash.*           # Crash logs from Mono builds
+.godot 
 
 # Build / export artifacts
 *.exe
