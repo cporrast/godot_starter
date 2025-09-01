@@ -1,0 +1,28 @@
+# Godot-specific
+.import/               # Auto-generated import files
+.export/               # Auto-generated export templates (Godot 4+)
+export_presets.cfg     # Local export settings (optional, can be shared if you want)
+mono_crash.*           # Crash logs from Mono builds
+
+# Build / export artifacts
+*.exe
+*.apk
+*.aab
+*.zip
+*.tar.gz
+*.pck
+*.dmg
+*.app
+*.so
+*.dll
+*.dylib
+
+# IDE / Editor stuff
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific junk
+.DS_Store
+Thumbs.db

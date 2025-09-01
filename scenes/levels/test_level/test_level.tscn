@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://deu5k2hfx61ng"]
+
+[ext_resource type="Script" uid="uid://dqfa84cfmiif" path="res://scenes/levels/test_level/test_level.gd" id="1_i0vk3"]
+[ext_resource type="PackedScene" uid="uid://c1ax8bs31o6y7" path="res://scenes/ui/hud/hud.tscn" id="2_62kbb"]
+[ext_resource type="PackedScene" uid="uid://dthqd4wp6c2vr" path="res://scenes/ui/pause_menu/pause_menu.tscn" id="3_uxvkn"]
+
+[node name="TestLevel" type="Node2D"]
+script = ExtResource("1_i0vk3")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+size_flags_horizontal = 4
+size_flags_vertical = 4
+color = Color(0.822824, 0.943058, 0.388076, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 70.0
+offset_top = 33.0
+offset_right = 147.0
+offset_bottom = 56.0
+text = "Test Level"
+
+[node name="Hud" parent="." instance=ExtResource("2_62kbb")]
+offset_left = 1083.0
+offset_top = 28.0
+offset_right = 1083.0
+offset_bottom = 28.0
+
+[node name="PauseMenu" parent="." instance=ExtResource("3_uxvkn")]
+visible = false
+offset_left = 83.0
+offset_top = 30.0
+offset_right = 83.0
+offset_bottom = 30.0

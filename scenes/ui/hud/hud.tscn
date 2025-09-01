@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c1ax8bs31o6y7"]
+
+[node name="Hud" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="InfoLabel" type="Label" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+text = "HP: 100 | Score: 0"
